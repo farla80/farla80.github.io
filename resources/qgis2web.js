@@ -30,7 +30,7 @@ var map = new ol.Map({
 });
 
 
-map.getView().fit([2104155.509125, 6021596.457180, 2112935.967757, 6026733.025480], map.getSize());
+map.getView().fit([2104229.738226, 6022120.429489, 2113156.395757, 6027256.997789], map.getSize());
 
 var NO_POPUP = 0
 var ALL_FIELDS = 1
@@ -71,7 +71,7 @@ var featureOverlay = new ol.layer.Vector({
 });
 
 var doHighlight = false;
-var doHover = false;
+var doHover = true;
 
 var highlight;
 var onPointerMove = function(evt) {
